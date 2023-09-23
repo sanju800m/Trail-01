@@ -1,0 +1,69 @@
+		GIT
+
+Version Controls:
+Types:
+Local Version Control
+Centralized Version Control System
+Distributed Version Control System  (GIT)
+Github, Gitlab, Bitbucket  -  Remote repositories
+
+
+CMD:
+git --version
+git config
+git config --global --list (to check the set value)
+to set the value :-
+git config --global user.name "sanju"
+git config --global user.email "sanju800m@gmail.com"
+
+create:-
+git status
+git init            (create gitrepository or local repository)(it creates master)
+git init -b main    (it creates in main)
+git add filename    (add from workingdirectory to stagingarea)
+git add .           (add all the file)
+gitlog              (to check the committed logs)
+git commit -m "message should given to check the what changes happened"
+git commit -a -m "skipping the staging area"
+git diff            (shows the changes happened in the directory)
+git diff --staged   (shows the changes happened in the staging area)
+git push origin main
+git pull            (clone copy all but pull copy the updated or modified one)
+git remote add origin url
+git branch
+
+
+remove file:-
+git rm --cached filename git commit -m "removed the file"
+
+
+
+git clone 'url'     (copy url from github and paste then repo will download in your local machine )
+
+
+Add Folder:
+git init
+git add <folder1> <folder2> <etc.>
+git commit -m "Your message about the commit"
+git remote add origin https://github.com/yourUsername/yourRepository.git
+(git remote rm origin)
+git push -u origin master
+git push origin master
+
+
+
+
+
+GitInit:-
+Working Directory
+gitrepository(local repository)
+Staging Area
+
+
+
+Advantage:
+To check the changes happened between previous version and the current version
+Synchronise Code(Code by many peoples)
+
+
+
